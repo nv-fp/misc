@@ -76,7 +76,7 @@ Avoid [Not Invented Here](https://en.wikipedia.org/wiki/Not_invented_here) menta
 
 There will always be a trade-off between the total control of writing something yourself and using something off the "shelf" but if that thing won't be material to the success your vision IMO spend your time focusing on the things that are going to make your game unique.
 
-Almost everything that you use off the shelf you can come back and replace with a custom version later if you really need to and it's probably you'll have a better undestanding of you needs at that point. This will result in a more specialized design with less over engineering.
+Almost everything that you use off the shelf you can come back and replace with a custom version later if you really need to and it's probable that by this point you will have a better undestanding of you needs. This will result in a more specialized design less prone to over engineering for imagined use cases.
 
 ## 8. To be continued. I'm tired of writing now
 
