@@ -27,7 +27,7 @@ That said for all practical purposes you're going to need to use it. To do so sa
 ## 3. Avoid invasions of privacy
 Godot leans hard on signals as a way to enable scene connectivity without introducing strong coupling. On the other hand GDScript doesn't offer visibility modifiers so there is no structural reason that you can't go around messing with internal state and, often, that's exactly how you're intended to do things (how often do we just set `Visibile`, `Position`, etc)
 
-But that's not good! It's super reasonable for there to be some state that shouldn't be set unless the code being modified is the originator of the call/change. Also reaching into another object at fucking with attributes or methods is a quick path to tight coupling: so don't do it. So: how do we know what's an acceptable attribute/method to use?
+But that's not good! It's super reasonable for there to be some state that shouldn't be set unless the code being modified is the originator of the call/change. Also reaching into another object and fucking with attributes or methods is a quick path to tight coupling: so don't do it. The question then is how do we know what's an acceptable attribute/method to use?
 
 Python has a convention that private variables are prefaced with `__`. It's not enforced by anything except good will but it mostly works. Golang uses case, e.g., `privateMethod` and `PublicMethod`.
 
